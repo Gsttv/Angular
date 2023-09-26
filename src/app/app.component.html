@@ -1,4 +1,3 @@
 <h1>My App</h1>
-<app-title name="Gustv"></app-title>
-<app-title name="MIMINHAA"></app-title>
-<router-outlet></router-outlet>
+<app-check-sample *ngIf="isAliveCheckSample"></app-check-sample>
+<button (click)="disposeCheckSample()">Destroy</button>
